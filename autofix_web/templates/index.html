@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AutoFix Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="{{ url_for('static', filename='picture.png') }}" alt="AutoFix Logo" class="logo">
+            <h1>AutoFix Web App</h1>
+        </header>
+
+        <main>
+            <form method="post">
+                <button type="submit">Run Diagnostics</button>
+            </form>
+
+            {% if results %}
+            <div class="results">
+                {% for result in results %}
+                <div class="card {{ result.status|lower }}">
+                    <strong>{{ result.name }}</strong>
+                    <p>{{ result.status }}</p>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </main>
+    </div>
+</body>
+</html>

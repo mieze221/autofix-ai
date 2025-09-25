@@ -1,0 +1,75 @@
+/* Center everything */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    padding: 30px 20px; /* add padding so logo isn’t outside frame */
+    background-color: #ffffff; /* makes a visible app frame */
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.15);
+}
+
+.logo {
+    width: 300px;  /* adjust size to fit inside container */
+    height: auto;
+    margin-bottom: auto; /* spacing below logo */
+}
+
+/* Header styling */
+h1 {
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+}
+
+/* Results container */
+.results {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Card style for each check */
+.card {
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Color-coded cards */
+.ok {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.fail {
+    background-color: #f8d7da;
+    color: #721c24;
+}

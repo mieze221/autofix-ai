@@ -1,4 +1,4 @@
-![AutoFix Logo](./auto/picture.png)
+![AutoFix Logo](autofix/picture.png)
 
 
 # AutoFix – AI-Powered Tech Support Assistant 
