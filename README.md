@@ -1,4 +1,4 @@
-![AutoFix Logo](autofix/background.png)
+![AutoFix Logo](autofix/background.jpg)
 
 
 # AutoFix – AI-Powered System Diagnostics
