@@ -1,5 +1,6 @@
 ![AutoFix Logo](./autofix/logo.png)
 
+
 # AutoFix – AI-Powered Tech Support Assistant 
 
 **Diagnose everyday computer and Wi-Fi issues, get step-by-step solutions, and save your fix history.**
